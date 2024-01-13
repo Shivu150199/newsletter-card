@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+<section id="newsLetter" role="newsLetter">
+
+  <div class="success-card-lg hide">
+  <img src="assets/images/icon-success.svg" alt="">
+  <h2>Thanks for Subscribing</h2>
+  <p>
+    
+  A confirmation email has been sent to <span>ash@loremcompany.com</span>. 
+  Please open it and click the button inside to confirm your subscription.
+  </p>
+   <button class="dismiss-btn btn">Dismiss</button>
+  </div>
+  <div class="success-card-sm hide">
+  <img src="assets/images/icon-success.svg" alt="">
+  <h2>Thanks for Subscribing</h2>
+  <p>
+    
+  A confirmation email has been sent to <span>ash@loremcompany.com</span>. 
+  Please open it and click the button inside to confirm your subscription.
+  </p>
+   <button class="dismiss-btn btn">Dismiss</button>
+  </div>
+<div class="newsLetter ">
+  <div class="sm-img-container">
+    <img src="assets/images/illustration-sign-up-mobile.svg" alt="" class="img-container">
+  </div>
+  <div  class="lg-img-container">
+    <img src="assets/images/illustration-sign-up-desktop.svg" alt="" class="img-container2">
+  </div>
+  <div class="formContainer">
+<h2>
+ Stay updated!
+</h2>
+<p>
+  Join 60,000+ product managers receiving monthly updates on:
+</p>
+
+<ul class="list-container">
+  <li class="list">
+    <img src="assets/images/icon-list.svg" alt=""> <p>
+  Product discovery and building what matters
+    </p>
+  </li>
+  <li class="list">
+    <img src="assets/images/icon-list.svg" alt=""> <p>
+ Measuring to ensure updates are a success
+    </p>
+  </li>
+  <li class="list">
+    <img src="assets/images/icon-list.svg" alt=""> <p>
+   And much more!
+    </p>
+  </li>
+</ul>
+
+<form  class="form">
+  <div class="input-container">
+ <label for="email"><span>Email Address</span> <span class="hide error error-msg">valid Email required</span> </label>
+  <input type="email" name="email" id="email" value="" required placeholder="ash@gmail.com">
+  </div>
+ 
+  <button class="subscribe-btn btn" type="submit">Subscribe to monthly newsletter</button>
+</form>
+
+  </div>
+</div>
+
+</section>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script>
+    const btn=document.querySelector('.subscribe-btn')
+    console.log(btn)
+    btn.addEventListener('click',()=>[
+      
+    ])
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
